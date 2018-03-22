@@ -1,0 +1,66 @@
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+#mainDiv {
+    text-align: center;
+}
+
+#mainDiv > div {
+    display: inline-block;
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+.titleFake,
+.bodyFake,
+.authorFake {
+    font-family: Arial, sans-serif;
+    color: #000;
+    text-decoration: none;
+}
+
+.titleFake > h2,
+.authorFake > span {
+    cursor: pointer;
+}
+
+.titleFake {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.bodyFake {
+    font-size: 18px;
+}
+
+.authorFake {
+    display: block;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.email__name,
+.email__address,
+.email__body {
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+.email__name {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.email__address {
+    text-decoration: underline;
+}
+
+.backBtn {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+}
